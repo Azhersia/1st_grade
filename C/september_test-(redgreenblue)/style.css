@@ -1,0 +1,72 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+.box1 {
+    background-color: red;
+    width: 33%;
+    height: 100vh;
+}
+
+.box2 {
+    background-color: green;
+    width: 33%;
+    height: 100vh;
+}
+
+.box3 {
+    background-color: blue;
+    width: 33%;
+    height: 100vh;
+}
+
+button {
+    text-align: center;
+    margin-top: 400px;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+.button1 {
+    border: none;
+    box-shadow: 3px 4px 10px black;
+    background-color: rgb(250, 101, 101);
+    border-radius: 4px;
+}
+
+.button2 {
+    border: none;
+    box-shadow: 3px 4px 10px black;
+    background-color: rgb(72, 186, 72);
+    border-radius: 4px;
+}
+
+.button3 {
+    border: none;
+    box-shadow: 3px 4px 10px black;
+    background-color: rgb(97, 97, 255);
+    border-radius: 4px;
+}
+
+.button1:hover {
+    background-color: rgb(171, 0, 0);
+    color: white;
+}
+
+.button2:hover {
+    background-color: rgb(13, 84, 13);
+    color: white;
+}
+
+.button3:hover {
+    background-color: rgb(35, 35, 155);
+    color: white;
+}

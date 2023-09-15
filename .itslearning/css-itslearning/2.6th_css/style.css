@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-left: 5px;
+
+}
+
+h1 {
+    background-color: black;
+    color: #fff;
+    max-width: 800px;
+    font-size: 3rem;
+
+}
+
+h3 {
+    background-color: gray;
+    color: #fff;
+    max-width: 800px;
+    font-size: 2rem;
+
+}
+
+p {
+    background-color: #ece4e4;
+    margin-bottom: 20px;
+    max-width: 800px;
+
+}

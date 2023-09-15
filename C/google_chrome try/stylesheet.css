@@ -1,0 +1,55 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    text-align: right;
+}
+
+header a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+header button {
+    padding: 10px 25px;
+    border: none;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 5px;
+}
+
+/* main */
+
+main {
+    text-align: center;
+    margin-top: 220px;
+}
+
+main input {
+    display: block;
+    width: 360px;
+    margin: 35px auto;
+    padding: 8px 12px;
+    border-radius: 18px;
+    border: 2px solid rgba(2, 2, 2, 0.333);
+}
+
+main button {
+    font-size: 15px;
+    padding: 8px 16px;
+    border: 0;
+    border-radius: 6px;
+    background-color: #f7f7f7;
+}
+
+main p {
+    font-size: 12px;
+    margin-top: 32px;
+}
+
+main a {
+    text-decoration: none;
+    color: blue;
+}

@@ -1,0 +1,71 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <p>gmail pictures</p>
+    <img id="moreapps" src="https://icon-library.com/images/app-menu-icon/app-menu-icon-10.jpg"
+        alt="google more apps logo" height="30px">
+    <img id="pfp" src="https://clipartpngfree.com/thumbnail/food/email_sphere_nytimes_google_thumb.png" height="30px"
+        alt="standard pfp">
+    <br>
+    <br>
+    <h1 id="G">G</h1>
+    <h1 id="O">o</h1>
+    <h1 id="o">o</h1>
+    <h1 id="g">g</h1>
+    <h1 id="L">l</h1>
+    <h1 id="E">e</h1>
+</body>
+
+</html>
+
+
+
+h1 {
+    font-size: 90px;
+    display: inline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+p {
+    display: inline;
+    margin: 0 0 0 auto;
+}
+
+#moreapps,
+#pfp {
+    margin: 20px display: inline;
+}
+
+#G {
+    margin-left: 500px;
+    color: #4285F4;
+}
+
+#O {
+    color: #DB4437;
+}
+
+#o {
+    color: #F4B400;
+}
+
+#g {
+    color: #4285F4;
+}
+
+#L {
+    color: #0F9D58;
+}
+
+#E {
+    color: #DB4437;
+}-->

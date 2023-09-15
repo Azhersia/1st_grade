@@ -1,0 +1,33 @@
+div {
+    margin-bottom: 15px;
+}
+
+.first {
+    background-color: black;
+    color: white;
+}
+
+.second {
+    background-color: rgb(43, 38, 38);
+    color: white;
+    width: 50%;
+
+}
+
+.third {
+    background-color: rgb(163, 162, 162);
+    width: 25%;
+
+}
+
+.fourth {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    width: 500px;
+}
+
+.fifth {
+    background-color: rgb(11, 0, 221);
+    color: white;
+    width: 250px;
+}

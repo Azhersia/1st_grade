@@ -1,0 +1,40 @@
+.box {
+    height: 80px;
+    width: 100px;
+
+    position: relative;
+    top: 20px;
+    left: 20px;
+    animation: move 2s infinite;
+
+}
+
+@keyframes move {
+
+
+    from {
+        top: 20px;
+        transform: rotate(365deg);
+    }
+
+    to {
+        top: 400px;
+        left: 1100px;
+    }
+}
+
+/* Uppg 1
+@keyframes move {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 1100px;
+    }
+
+    100% {
+        left: 0;
+    } 
+
+} */

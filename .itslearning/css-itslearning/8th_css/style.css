@@ -1,0 +1,33 @@
+* {
+    color: white;
+}
+
+.boxa {
+    background-color: black;
+    margin: 40px;
+    width: 200px;
+    height: 50px;
+}
+
+.boxb {
+    background-color: black;
+    padding: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+.boxc {
+    background-color: black;
+    border: solid 10px red;
+    width: 200px;
+    height: 50px;
+}
+
+.boxd {
+    background-color: black;
+    border: solid 8px red;
+    width: 200px;
+    height: 50px;
+    margin: 40px;
+    padding: 10px;
+}

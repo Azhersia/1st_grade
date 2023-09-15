@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/space.jpg);
+    object-fit: cover;
+
+}
+
+.navbar {
+    border: solid 3px black;
+    background-image: url(img/bg.jpg);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 40%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-image: url(img/bg.jpg);
+    border-radius: 50px;
+    transition-duration: 1s;
+    outline: 0;
+}
+
+.main {
+    margin-top: 50px;
+}
+
+.signInBox {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2), rgb(0, 0, 0, 0.8));
+    border: solid 5px black;
+    height: 300px;
+    width: 500px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    height: 25px;
+    width: 150px;
+    outline: 0;
+    border: 0;
+    font-size: 0.8rem;
+    padding: 3px;
+    background-color: transparent;
+    color: #000;
+    margin: 2px;
+    border: solid 2px black;
+    background-color: #a29f9f;
+}
+
+input::placeholder {
+    color: #4f4f4f;
+}
+
+button {
+    background-color: #a29f9f;
+    margin: 10px 0 0 10px;
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    border: solid 2px black;
+}

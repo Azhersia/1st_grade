@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Passion+One:wght@700&display=swap');
+
+
+html {
+    color-scheme: dark light;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+
+
+}
+
+h1 {
+    margin: 20px;
+    font-size: 4.4rem;
+    font-family: 'Lato', sans-serif;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+}
+
+.pink {
+    color: #f15bb5;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+p {
+    margin-top: 28px;
+    font-size: 1.4rem;
+    font-family: 'Passion One', cursive;
+}
+
+.bottons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.button1 {
+    background: #f15bb5;
+    color: white;
+    border: 0;
+    padding: 18px 28px;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    box-shadow: 0 1px 2px -1px rgb(0 0 0 / 0.1)
+}
+
+.button2 {
+    background: white;
+    color: #f15bb5;
+    border: 0;
+    border-radius: 6px;
+    padding: 18px 28px;
+    margin: 20px;
+    font-size: 1.2rem;
+    box-shadow: 0 1px 2px -1px rgb(0 0 0 / 0.1)
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+
+    main,
+    img {
+        height: 100%;
+    }
+
+    main {
+        padding: 24px;
+    }
+}
+
+@media ()
